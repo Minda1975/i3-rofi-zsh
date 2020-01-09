@@ -16,6 +16,11 @@ ap=(Terminal        t   urxvtc
     Other           oa  genu\ ot
     Internet        ia  genu\ it)
 
+ot=(Audacious       da  audacious
+    Xterm           ga  xterm
+    Asunder         b   asunder
+    Gvim            e   gvim)
+    
 it=(Firefox         f   firefox\ --private-window
     Transmission    r   transmission-gtk)
 

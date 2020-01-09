@@ -183,7 +183,7 @@ bindsym $mod+r mode "resize"
 bar {
     mode                    hide
     position                top
-    font xft:InconsolataGo Nerd Font
+    font xft:InconsolataGo Nerd Font 12
     modifier                $alt
     tray_output             none
     status_command          i3status -c ~/.config/i3/i3status.conf
@@ -211,6 +211,7 @@ new_window pixel 1
 bindsym $mod+F1     exec --no-startup-id   genu it 
 bindsym $mod+F2     exec --no-startup-id   genu ap
 bindsym $mod+Pause  exec --no-startup-id   genu ex
+bindsym $mod+F3     exec --no-startup-id   genu ot
 bindsym $mod+Tab    exec --no-startup-id    "rofi -sidebar-mode -modi window,windowcd,run -show"
 bindsym $mod+Shift+x bar mode         toggle
 bindsym $mod+x       bar hidden_state toggle
