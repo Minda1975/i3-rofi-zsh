@@ -11,7 +11,7 @@ The modified gruvbox-dark-soft theme is used (only listview is left):
 `.config/rofi/grznych.rasi`
 The `rt` function accepts an array that specifies what will be displayed, how it will be displayed and what will happen when the corresponding menu item is selected. For instance:
 
-`#   title        key command
+```#   title        key command
 ex=(Shutdown     wu  systemctl\ poweroff
     Reboot       ru  systemctl\ reboot
     Suspend      sa  systemctl\ suspend
@@ -19,7 +19,7 @@ ex=(Shutdown     wu  systemctl\ poweroff
     Reload\ i3   e   'i3-msg reload && dunstify i3:\ reload'
     Restart\ i3  t   i3-msg\ restart
     Config\ i3   c   gedit\ ~/.config/i3/config)`
-
+```
 
 The first column is the heading: what will be displayed.
 The second column is the keys.
