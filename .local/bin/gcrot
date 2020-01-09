@@ -1,0 +1,2 @@
+#!/bin/sh
+scrot $1 ~/.Pictures/%Y-%m-%d\ %H-%M.png -e 'notify-send -u low  "$n"'

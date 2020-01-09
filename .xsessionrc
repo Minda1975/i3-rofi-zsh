@@ -1,0 +1,16 @@
+#!/bin/bash
+
+# Load resources
+xrdb -merge .Xresources
+
+#Apps
+urxvtd -q -f -o
+feh --bg-fill ~/.wallpaper.jpg
+
+setxkbmap -layout "us,lt,ru" -option "grp:ctrl_shift_toggle"
+
+fbxkb &
+
+exec i3 
+
+
