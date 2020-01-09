@@ -44,6 +44,7 @@ And now screenshots (as usual) 😀
 ![Screenshot](screen_3.png?raw=true "Clear")
 ![Screenshot](screen_4.png?raw=true "Clear")
 ![Screenshot](screen_5.png?raw=true "Clear")
+![Screenshot](screen_6.png?raw=true "Clear")
 
 
 
