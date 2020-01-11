@@ -20,15 +20,80 @@ UXTerm*eightBitInput:      true
 UXTerm*saveLines:          512
 UXTerm*scrollKey:          true
 UXTerm*scrollTtyOutput:    false
-UXTerm*scrollBar:          true
-UXTerm*rightScrollBar:     true
 UXTerm*jumpScroll:         true
 UXTerm*multiScroll:        true
 UXTerm*toolBar:            false
 
 URxvt.scrollBar: false
 URxvt.font: xft:UbuntuMono Nerd Font:size=13
- 
+
+! hard contrast:
+UXTerm*background: #1d2021
+! *background: #282828
+! soft contrast: *background: #32302f
+UXTerm*foreground: #ebdbb2
+
+! Black + DarkGrey
+UXTerm*color0:  #282828
+UXTerm*color8:  #928374
+
+! DarkRed + Red
+UXTerm*color1:  #cc241d
+UXTerm*color9:  #fb4934
+
+! DarkGreen + Green
+UXTerm*color2:  #98971a
+UXTerm*color10: #b8bb26
+
+! DarkYellow + Yellow
+UXTerm*color3:  #d79921
+UXTerm*color11: #fabd2f
+
+! DarkBlue + Blue
+UXTerm*color4:  #458588
+UXTerm*color12: #83a598
+
+! DarkMagenta + Magenta
+UXTerm*color5:  #b16286
+UXTerm*color13: #d3869b
+
+! DarkCyan + Cyan
+UXTerm*color6:  #689d6a
+UXTerm*color14: #8ec07c
+
+! LightGrey + White
+UXTerm*color7:  #a89984
+UXTerm*color15: #ebdbb2
+
+
+!Xterm colors
+XTerm*foreground:     rgb:dd/dd/dd
+XTerm*background:     rgb:22/22/22
+!black
+XTerm*color0:         rgb:19/19/19
+XTerm*color8:         rgb:25/25/25
+!red
+XTerm*color1:         rgb:80/32/32
+XTerm*color9:         rgb:98/2b/2b
+!green
+XTerm*color2:         rgb:5b/76/2f
+XTerm*color10:        rgb:89/b8/3f
+!brown/yellow
+XTerm*color3:         rgb:aa/99/43
+XTerm*color11:        rgb:ef/ef/60
+!blue
+XTerm*color4:         rgb:32/4c/80
+XTerm*color12:        rgb:2b/4f/98
+!magenta
+XTerm*color5:         rgb:70/6c/9a
+XTerm*color13:        rgb:82/6a/b1
+!cyan
+XTerm*color6:         rgb:92/b1/9e
+XTerm*color14:        rgb:a1/cd/cd
+!white
+XTerm*color7:         rgb:ff/ff/ff
+XTerm*color15:        rgb:dd/dd/dd
+
 ! hard contrast:
 *background: #1d2021
 ! *background: #282828
@@ -66,35 +131,3 @@ URxvt.font: xft:UbuntuMono Nerd Font:size=13
 ! LightGrey + White
 *color7:  #a89984
 *color15: #ebdbb2
-
-!URxvt.color24:  #076678
-!URxvt.color66:  #427b58
-!URxvt.color88:  #9d0006
-!URxvt.color96:  #8f3f71
-!URxvt.color100: #79740e
-!URxvt.color108: #8ec07c
-!URxvt.color109: #83a598
-!URxvt.color130: #af3a03
-!URxvt.color136: #b57614
-!URxvt.color142: #b8bb26
-!URxvt.color167: #fb4934
-!URxvt.color175: #d3869b
-!URxvt.color208: #fe8019
-!URxvt.color214: #fabd2f
-!URxvt.color223: #ebdbb2
-!URxvt.color228: #f2e5bc
-!URxvt.color229: #fbf1c7
-!URxvt.color230: #f9f5d7
-!URxvt.color234: #1d2021
-!URxvt.color235: #282828
-!URxvt.color236: #32302f
-!URxvt.color237: #3c3836
-!URxvt.color239: #504945
-!URxvt.color241: #665c54
-!URxvt.color243: #7c6f64
-!URxvt.color244: #928374
-!URxvt.color245: #928374
-!URxvt.color246: #a89984
-!URxvt.color248: #bdae93
-!URxvt.color250: #d5c4a1
-
